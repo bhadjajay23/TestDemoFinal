@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NoDataFoundController" customModule="ProjectStructureNew" customModuleProvider="target">
+            <connections>
+                <outlet property="actionButton1" destination="pXL-mu-nLp" id="eYV-ot-KBg"/>
+                <outlet property="actionButton1HeightConstraint" destination="eqm-r5-T43" id="rmS-Wz-hME"/>
+                <outlet property="actionButton2" destination="VjY-2T-vII" id="GpV-W1-YzC"/>
+                <outlet property="actionButton2HeightConstraint" destination="CKI-YH-0wh" id="Nb1-1F-Oft"/>
+                <outlet property="descriptionLabel" destination="Ngn-U5-VLl" id="fnl-FQ-82P"/>
+                <outlet property="noDataImageView" destination="LZ0-vu-hVf" id="W9n-7G-3rq"/>
+                <outlet property="titleLabel" destination="68I-tm-cDV" id="TwM-dv-zsm"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="LZ0-vu-hVf">
+                    <rect key="frame" x="127.66666666666669" y="203" width="120" height="120"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="120" id="Dug-bW-GBK"/>
+                        <constraint firstAttribute="width" constant="120" id="v6J-hu-rpB"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No results found" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="68I-tm-cDV">
+                    <rect key="frame" x="20" y="353" width="335" height="21.666666666666686"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="fontFamily">
+                            <integer key="value" value="0"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                            <real key="value" value="18"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Change the search keyword or clear any filters" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ngn-U5-VLl">
+                    <rect key="frame" x="20" y="384.66666666666669" width="335" height="43"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <color key="textColor" name="dove Gray"/>
+                    <nil key="highlightedColor"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="fontFamily">
+                            <integer key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                            <real key="value" value="14"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </label>
+                <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pXL-mu-nLp">
+                    <rect key="frame" x="20" y="457.66666666666669" width="335" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="eqm-r5-T43"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="fontFamily">
+                            <integer key="value" value="0"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                            <real key="value" value="16"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="8"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </button>
+                <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VjY-2T-vII">
+                    <rect key="frame" x="20" y="537.66666666666663" width="335" height="32"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="32" id="CKI-YH-0wh"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <state key="normal">
+                        <color key="titleColor" name="orange"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="fontFamily">
+                            <integer key="value" value="0"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                            <real key="value" value="16"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="68I-tm-cDV" firstAttribute="top" secondItem="LZ0-vu-hVf" secondAttribute="bottom" constant="30" id="4g3-mf-qDk"/>
+                <constraint firstItem="pXL-mu-nLp" firstAttribute="leading" secondItem="Ngn-U5-VLl" secondAttribute="leading" id="5yP-oP-JV4"/>
+                <constraint firstItem="pXL-mu-nLp" firstAttribute="top" secondItem="Ngn-U5-VLl" secondAttribute="bottom" constant="30" id="9Mw-SE-Agt"/>
+                <constraint firstItem="Ngn-U5-VLl" firstAttribute="top" secondItem="68I-tm-cDV" secondAttribute="bottom" constant="10" id="KSk-wP-VWp"/>
+                <constraint firstItem="LZ0-vu-hVf" firstAttribute="centerX" secondItem="68I-tm-cDV" secondAttribute="centerX" id="Sel-en-DG3"/>
+                <constraint firstAttribute="trailing" secondItem="Ngn-U5-VLl" secondAttribute="trailing" constant="20" id="aTv-PN-Vhg"/>
+                <constraint firstItem="68I-tm-cDV" firstAttribute="leading" secondItem="Ngn-U5-VLl" secondAttribute="leading" id="cBr-Ka-YDO"/>
+                <constraint firstItem="pXL-mu-nLp" firstAttribute="trailing" secondItem="Ngn-U5-VLl" secondAttribute="trailing" id="cPh-I1-Vya"/>
+                <constraint firstItem="VjY-2T-vII" firstAttribute="trailing" secondItem="pXL-mu-nLp" secondAttribute="trailing" id="l6e-xH-fMM"/>
+                <constraint firstItem="VjY-2T-vII" firstAttribute="leading" secondItem="pXL-mu-nLp" secondAttribute="leading" id="qNf-ww-I4h"/>
+                <constraint firstItem="VjY-2T-vII" firstAttribute="top" secondItem="pXL-mu-nLp" secondAttribute="bottom" constant="30" id="uNA-Jc-deL"/>
+                <constraint firstItem="68I-tm-cDV" firstAttribute="trailing" secondItem="Ngn-U5-VLl" secondAttribute="trailing" id="vFT-9d-gpU"/>
+                <constraint firstItem="Ngn-U5-VLl" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="xW6-Cx-cMe"/>
+                <constraint firstItem="Ngn-U5-VLl" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="z59-kB-7cL"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="132" y="143"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="dove Gray">
+            <color red="0.38039215686274508" green="0.38039215686274508" blue="0.38039215686274508" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="orange">
+            <color red="0.99607843137254903" green="0.31372549019607843" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
